@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.admin.hbday.MainActivity">
+
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/curfirsthalf"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/cur"
+        tools:ignore="ContentDescription" />
+
+
+
+        <ImageView
+        android:id="@+id/cursechalf"
+        android:layout_width="197dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/curr"
+        tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/hbdpic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:alpha="0"
+        android:onClick="hbdclick"
+        app:srcCompat="@drawable/pic"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="77dp" />
+
+    <ImageView
+        android:id="@+id/aa"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/aa"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/ad"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/aad"/>
+    <ImageView
+        android:id="@+id/ac"
+        android:alpha="0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ac"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Luv Kunjeee......."
+        android:textColor="@android:color/holo_red_light"
+        android:textColorLink="?attr/actionMenuTextColor" />
+
+
+
+</RelativeLayout>
